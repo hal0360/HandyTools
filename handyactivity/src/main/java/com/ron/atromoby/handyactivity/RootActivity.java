@@ -37,4 +37,8 @@ public class RootActivity extends AppCompatActivity {
         startActivity(intent);
         this.finish();
     }
+
+    protected void dsf(String mess){
+        Toast.makeText(this, mess, Toast.LENGTH_LONG).show();
+    }
 }
