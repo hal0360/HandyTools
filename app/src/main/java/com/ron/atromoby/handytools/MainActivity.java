@@ -1,9 +1,10 @@
 package com.ron.atromoby.handytools;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+import com.ron.atromoby.handyactivity.RootActivity;
+
+public class MainActivity extends RootActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

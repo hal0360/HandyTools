@@ -1,1 +1,1 @@
-include ':app', ':handyactivity'
+include ':app', ':handyactivity', ':handypopup'
